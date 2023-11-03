@@ -69,8 +69,6 @@ EOT;
 				$this->Database->prepare($strQuery)->execute($arrInsert);
 			}
 		}
-
-		return $varValue;
 	}
 
 	/**
